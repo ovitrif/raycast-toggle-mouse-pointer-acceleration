@@ -1,15 +1,10 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "toggle-fn",
-  "title": "Toggle Fn",
-  "description": "Toggle the \"Use all F1, F2, etc. keys as standard function keys\" option in macOS System Preferences.",
-  "icon": "fn-key.png",
-  "author": "elonwoo",
-  "contributors": [
-    "pernielsentikaer",
-    "jcelaya775",
-    "ovitrif"
-  ],
+  "name": "toggle-mouse-pointer-acceleration",
+  "title": "Toggle Mouse Pointer Acceleration",
+  "description": "Toggle the \"Pointer acceleration\" setting in macOS System Settings (Mouse → Advanced).",
+  "icon": "cursor-icon.png",
+  "author": "ovitrif",
   "categories": [
     "Productivity",
     "System"
@@ -18,9 +13,9 @@
   "commands": [
     {
       "name": "index",
-      "title": "Toggle Fn",
+      "title": "Toggle Mouse Pointer Acceleration",
       "subtitle": "System",
-      "description": "Toggle Mac Function Keys",
+      "description": "Toggle Mouse Pointer Acceleration",
       "mode": "no-view"
     }
   ],
